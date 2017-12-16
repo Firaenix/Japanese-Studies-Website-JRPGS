@@ -18,7 +18,7 @@ export class App extends React.Component {
         </Section>
 
         <Section className="eighties-section">
-          <Slide>
+          <Slide title={<div className="early-text">JRPGs In the 1980s</div>}>
             <Slide1 />
           </Slide>
           <Slide>Hello2!</Slide>
@@ -26,7 +26,9 @@ export class App extends React.Component {
         </Section>
 
         <Section className="nineties-section">
-          <Slide>Section 2 Hello!</Slide>
+          <Slide className="slide-title">
+            <div>JRPGs In the 1990s</div>
+          </Slide>
           <Slide>Section 2 Hello2!</Slide>
           <Slide>Section 2 Hello3!</Slide>
         </Section>
