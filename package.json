@@ -4,8 +4,8 @@
   "description": "JPS350",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./index.html",
-    "build": "parcel build ./index.html --public-url '/'"
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url '/' --out-dir docs"
   },
   "dependencies": {
     "@types/react": "^16.0.29",
