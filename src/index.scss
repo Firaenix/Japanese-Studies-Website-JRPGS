@@ -1,7 +1,10 @@
+@import './styles/mixins.scss';
+
 .slide {
   text-align: center;
 }
 
-.eighties {
+.eighties-section {
   font-family: sans-serif;
+  @include background("https://r.mprd.se/Nintendo%20Entertainment%20System/Snaps/Final%20Fantasy%20I%20&%20II%20(J).png");
 }

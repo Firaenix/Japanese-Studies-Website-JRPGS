@@ -7,6 +7,15 @@
     "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html --public-url /Japanese-Studies-Website-JRPGS/ --out-dir docs"
   },
+  "pre-commit": [
+    ["lint-staged", "build"]
+  ],
+  "lint-staged": {
+    "*.(j|t)sx?": [
+      "prettier --write",
+      "git add"
+    ]
+  },
   "dependencies": {
     "@types/react": "^16.0.29",
     "@types/react-dom": "^16.0.3",
@@ -21,8 +30,10 @@
   "devDependencies": {
     "@types/classnames": "^2.2.3",
     "@types/jquery": "^3.2.17",
+    "lint-staged": "^6.0.0",
     "parcel-bundler": "^1.2.0",
     "parcel-plugin-typescript": "^0.2.0-angular.0",
+    "pre-commit": "^1.2.2",
     "prettier": "^1.9.2",
     "react-test-renderer": "^16.2.0",
     "tslint": "^5.8.0",

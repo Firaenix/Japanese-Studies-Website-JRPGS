@@ -15,6 +15,7 @@ export class Section extends React.Component<Props, {}> {
   public render() {
     return (
       <div id={this.props.id} className={this.compileClassNames()}>
+        <div className="section__background" />
         {this.props.children}
       </div>
     );
