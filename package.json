@@ -1,0 +1,32 @@
+{
+  "name": "jps350",
+  "version": "1.0.0",
+  "description": "JPS350",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url '/'"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.29",
+    "@types/react-dom": "^16.0.3",
+    "es6-shim": "^0.35.3",
+    "fullpage.js": "^2.9.5",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.7.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.2.17",
+    "parcel-bundler": "^1.2.0",
+    "parcel-plugin-typescript": "^0.2.0-angular.0",
+    "prettier": "^1.9.2",
+    "react-test-renderer": "^16.2.0",
+    "tslint": "^5.8.0",
+    "tslint-config-airbnb": "^5.4.2",
+    "tslint-config-prettier": "^1.6.0",
+    "tslint-react": "^3.2.0",
+    "typescript": "^2.6.2"
+  }
+}
