@@ -1,12 +1,17 @@
 import * as React from "react";
-import { Page } from "./components/Page";
+import { Section } from "./components/Section";
 import { FullPage } from "./components/FullPage";
+import { Slide } from "./components/Slide";
 
 export class App extends React.Component {
   public render() {
     return (
       <FullPage>
-        <Page />
+        <Section>
+          <Slide>Hello!</Slide>
+          <Slide>Hello2!</Slide>
+          <Slide>Hello3!</Slide>
+        </Section>
       </FullPage>
     );
   }

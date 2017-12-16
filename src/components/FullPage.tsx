@@ -1,10 +1,20 @@
 import * as React from "react";
 import * as $ from "jquery";
 import "fullpage.js";
+import * as classNames from "classnames";
 
-export class FullPage extends React.Component {
+interface Props {
+  className?: string;
+  children?: any;
+}
+
+export class FullPage extends React.Component<Props, {}> {
   public componentWillMount() {
     this.setupFullPage();
+  }
+
+  private compileClassNames() {
+    return classNames("fullpage", this.props.className);
   }
 
   private setupFullPage() {
@@ -20,6 +30,10 @@ export class FullPage extends React.Component {
   }
 
   public render() {
-    return <div id="fullpage">{this.props.children}</div>;
+    return (
+      <div id="fullpage" className={this.compileClassNames()}>
+        {this.props.children}
+      </div>
+    );
   }
 }

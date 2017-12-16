@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "build":
-      "parcel build ./src/index.html --public-url /Japanese-Studies-Website-JRPGS/ --out-dir docs"
+    "build": "parcel build ./src/index.html --public-url /Japanese-Studies-Website-JRPGS/ --out-dir docs"
   },
   "dependencies": {
     "@types/react": "^16.0.29",
     "@types/react-dom": "^16.0.3",
+    "classnames": "^2.2.5",
     "es6-shim": "^0.35.3",
     "fullpage.js": "^2.9.5",
     "jquery": "^3.2.1",
@@ -19,6 +19,7 @@
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
+    "@types/classnames": "^2.2.3",
     "@types/jquery": "^3.2.17",
     "parcel-bundler": "^1.2.0",
     "parcel-plugin-typescript": "^0.2.0-angular.0",
