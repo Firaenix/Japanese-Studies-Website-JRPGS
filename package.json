@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html --public-url / --out-dir docs"
+    "build":
+      "parcel build ./src/index.html --public-url /Japanese-Studies-Website-JRPGS/ --out-dir docs"
   },
   "dependencies": {
     "@types/react": "^16.0.29",
