@@ -3,9 +3,12 @@
     background-image: url($url);
     background-repeat: no-repeat;
     opacity: 0.5;
-    position: fixed;
     width: 100vW;
     height: 100vH;
     background-size: cover;
+
+    // WOOOOOOW position: fixed works in IE9 but not IE10+
+    // So we need this hack:
+    margin-bottom: -100vH;
   }
 }
