@@ -1,5 +1,5 @@
-import * as React from "react";
-import * as classNames from "classnames";
+import * as classNames from 'classnames';
+import * as React from 'react';
 
 interface Props {
   className?: string;
@@ -9,7 +9,7 @@ interface Props {
 
 export class Section extends React.Component<Props, {}> {
   private compileClassNames() {
-    return classNames("section", this.props.className);
+    return classNames('section', this.props.className);
   }
 
   public render() {
