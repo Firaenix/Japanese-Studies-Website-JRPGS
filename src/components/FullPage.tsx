@@ -23,7 +23,15 @@ export class FullPage extends React.Component<Props, {}> {
       sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
       anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
       menu: '#menu',
-      scrollingSpeed: 1000
+      scrollingSpeed: 1000,
+      continuousVertical: true,
+      continuousHorizontal: true,
+      dragAndMove: true,
+      navigation: true,
+      controlArrows: true,
+      navigationPosition: 'bottom',
+      slidesNavigation: true,
+      slidesNavPosition: 'bottom'
     };
   }
 

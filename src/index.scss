@@ -8,3 +8,7 @@
   font-family: sans-serif;
   @include background("https://r.mprd.se/Nintendo%20Entertainment%20System/Snaps/Final%20Fantasy%20I%20&%20II%20(J).png");
 }
+
+.nineties-section {
+  @include background("https://i.pinimg.com/736x/25/42/02/254202e2d73f17f8579a980bd634cbf5--chrono-trigger--bits.jpg");
+}
