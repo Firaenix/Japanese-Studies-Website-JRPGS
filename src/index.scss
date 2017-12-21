@@ -1,7 +1,9 @@
-@import './styles/mixins.scss';
+@import './styles/mixins';
+@import './styles/fonts';
 
 .slide {
   text-align: center;
+  font-family: ChronoType;
 }
 
 .slide-title {
@@ -18,18 +20,16 @@
 
 .early-text {
   @include early_rpg_text_box();
+  font-family: 'Press Start 2P', cursive;
 }
 
 .eighties-section {
   font-family: sans-serif;
-  @include background("https://media.giphy.com/media/IXk0vBLWS9sis/giphy.gif");
-
-
-
+  @include background("./images/80s-dragon-quest.gif");
 }
 
 .nineties-section {
-  @include background("https://media.giphy.com/media/ofHJxJdbfPKY8/giphy.gif");
+  @include background("./images/90s-chrono-background.gif");
   .section__background {
     opacity: 0.7;
   }

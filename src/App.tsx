@@ -21,7 +21,9 @@ export class App extends React.Component {
           <Slide title={<div className="early-text">JRPGs In the 1980s</div>}>
             <Slide1 />
           </Slide>
-          <Slide>Hello2!</Slide>
+          <Slide>
+            <div className="early-text">Hello2!</div>
+          </Slide>
           <Slide>Hello3!</Slide>
         </Section>
 
