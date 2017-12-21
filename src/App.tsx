@@ -1,9 +1,10 @@
+import * as fs from 'fs';
 import * as React from 'react';
 
 import { FullPage } from './components/FullPage';
 import { Section } from './components/Section';
 import { Slide } from './components/Slide';
-import { Slide1 } from './Sections/80s/Slide1';
+import { SlideText } from './components/SlideText';
 
 export class App extends React.Component {
   public render() {
@@ -19,7 +20,10 @@ export class App extends React.Component {
 
         <Section className="eighties-section">
           <Slide title={<div className="early-text">JRPGs In the 1980s</div>}>
-            <Slide1 />
+            <SlideText
+              className="S1S1 early-text"
+              text={fs.readFileSync(`${__dirname}/Sections/80s/slide1-text.md`, 'utf8')}
+            />
           </Slide>
           <Slide>
             <div className="early-text">Hello2!</div>
