@@ -10,7 +10,7 @@ interface Props {
 
 export class Slide extends React.Component<Props, {}> {
   private compileClassNames() {
-    return classNames('slide', this.props.className);
+    return classNames('slide', { 'title-slide': !!this.props.title }, this.props.className);
   }
 
   public render() {

@@ -10,27 +10,66 @@
   color: white;
   text-shadow: 1px 1px 3px black;
 
-  font-size: 42px;
+  margin-bottom: 30px;
+}
 
-  margin-top: -45vH;
+.title-slide {
+  .fp-tableCell {
+    vertical-align: top;
+
+    padding-top: 20px;
+  }
 }
 
 .early-text {
   @include early_rpg_text_box();
   font-family: 'Press Start 2P', cursive;
+
+  &.fit {
+    padding-left: 100px;
+    padding-right: 100px;
+
+    display: inline-table;
+  }
 }
 
 .eighties-section {
   font-family: sans-serif;
   @include background("./images/80s-dragon-quest.gif");
+
+  .slide-title {
+    font-size: 31px;
+  }
 }
 
 .nineties-section {
   @include background("./images/90s-chrono-background.gif");
 
-  font-family: ChronoType;
+  div, h1, h2, h3, p, span {
+    font-family: ChronoType;
+  }
+
+  .slide-title {
+    font-size: 70px;
+  }
 
   .section__background {
     opacity: 0.7;
   }
+}
+
+.noughties-section {
+  @include background("./images/00s-final-fantasy-vii.gif");
+
+  .section__background {
+    opacity: 0.7;
+  }
+}
+
+.tens-section {
+  @include background("./images/10s-persona5.gif");
+}
+
+.summary-section {
+  @include background("./images/90s-chrono-background.gif");
 }
