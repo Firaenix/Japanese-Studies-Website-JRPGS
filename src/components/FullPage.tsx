@@ -28,7 +28,8 @@ export class FullPage extends React.Component<Props, {}> {
       controlArrows: true,
       navigationPosition: 'bottom',
       slidesNavigation: true,
-      slidesNavPosition: 'bottom'
+      slidesNavPosition: 'bottom',
+      anchors: ['intro', '80s', '90s', '00s', '10s', 'summary']
     };
   }
 

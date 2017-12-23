@@ -12,9 +12,7 @@ export class App extends React.Component {
       <FullPage>
         <Section className="intro-section">
           <Slide>
-            <div>Welcome to Nicholas Carton's JPS350 Website</div>
-            <div>You can navigate this site with your keyboard's arrow keys!</div>
-            <div>If you're using a touch device, you can scroll with your finger!</div>
+            <SlideText className="intro" text={fs.readFileSync(`${__dirname}/Sections/intro/slide1.md`, 'utf8')} />
           </Slide>
         </Section>
 
@@ -22,25 +20,26 @@ export class App extends React.Component {
           <Slide title={<div className="early-text">JRPGs In the 1980s</div>}>
             <SlideText
               className="S1S1 early-text"
-              text={fs.readFileSync(`${__dirname}/Sections/80s/slide1-text.md`, 'utf8')}
+              text={fs.readFileSync(`${__dirname}/Sections/80s/slide1.md`, 'utf8')}
             />
           </Slide>
           <Slide>
-            <div className="early-text">Hello2!</div>
+            <SlideText
+              className="S1S2 early-text"
+              text={fs.readFileSync(`${__dirname}/Sections/80s/slide1.md`, 'utf8')}
+            />
           </Slide>
           <Slide>Hello3!</Slide>
         </Section>
 
         <Section className="nineties-section">
-          <Slide className="slide-title">
-            <div>JRPGs In the 1990s</div>
-          </Slide>
+          <Slide className="slide-title" title={<div>JRPGs In the 1990s</div>} />
           <Slide>Section 2 Hello2!</Slide>
           <Slide>Section 2 Hello3!</Slide>
         </Section>
 
         <Section className="noughties-section">
-          <Slide>Section 2 Hello!</Slide>
+          <Slide>JRPGs in the late 1990s to 2000s</Slide>
           <Slide>Section 2 Hello2!</Slide>
           <Slide>Section 2 Hello3!</Slide>
         </Section>
