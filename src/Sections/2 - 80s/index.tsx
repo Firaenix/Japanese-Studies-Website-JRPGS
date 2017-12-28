@@ -13,23 +13,26 @@ export class EightiesSection extends React.Component<{}, {}> {
       <Section className="eighties-section">
         <Slide title={<div className="early-text">JRPGs In the 1980s</div>} />
 
-        <Slide title={<div className="early-text fit">Dragon Warrior</div>}>
+        <Slide id="S1S1" title={<div className="early-text fit">Dragon Warrior</div>}>
           <SlideText
-            className="S1S1 early-text"
+            className="early-text"
             text={fs.readFileSync(`${__dirname}/slide1.md`, 'utf8')}
           />
         </Slide>
 
-        <Slide title={<div className="early-text fit">Final Fantasy</div>}>
+        <Slide id="S1S2" title={<div className="early-text fit">Final Fantasy</div>}>
           <SlideText
-            className="S1S2 early-text"
+            className="early-text"
             text={fs.readFileSync(`${__dirname}/slide2.md`, 'utf8')}
           />
         </Slide>
 
-        <Slide title={<div className="early-text fit">Video Games reach the Mainstream</div>}>
+        <Slide
+          id="S1S3"
+          title={<div className="early-text fit">Video Games reach the Mainstream</div>}
+        >
           <SlideText
-            className="S1S3 early-text"
+            className="early-text"
             text={fs.readFileSync(`${__dirname}/slide3.md`, 'utf8')}
           />
         </Slide>

@@ -3,6 +3,8 @@ import * as React from 'react';
 import { Section } from '../../components/Section';
 import { Slide } from '../../components/Slide';
 
+declare const __dirname: string;
+
 export class SummarySection extends React.Component<{}, {}> {
   public render() {
     return (

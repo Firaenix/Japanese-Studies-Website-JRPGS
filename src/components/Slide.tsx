@@ -16,6 +16,8 @@ export class Slide extends React.Component<Props, {}> {
   public render() {
     return (
       <div id={this.props.id} className={this.compileClassNames()}>
+        <div className="slide__background-screen" />
+        <div className="slide__background" />
         <h1 className="slide-title">{this.props.title}</h1>
         {this.props.children}
       </div>

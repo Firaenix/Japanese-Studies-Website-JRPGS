@@ -1,5 +1,5 @@
-@mixin background($url) {
-  .section__background {
+@mixin background($url, $bg-prefix) {
+  .#{$bg-prefix}__background {
     background-image: url($url);
     background-repeat: no-repeat;
     opacity: 0.5;

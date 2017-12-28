@@ -4,4 +4,4 @@
 
 ## Keiko Awaji, a Japanese Actress, famous for her movies such as Stray Dog (1949) and The Bridges at Toko-Ri (1954), has previously confessed her love for the series;
 
-## _"I won't live forever," said Awaji. "I'd like to play two more more games... I really want them to put out a new game once every two years." (Ashcraft, 2009)._
+## _"I won't live forever," said Awaji. "I'd like to play two or more games... I really want them to put out a new game once every two years." (Ashcraft, 2009)._

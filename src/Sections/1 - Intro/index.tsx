@@ -5,6 +5,8 @@ import { Section } from '../../components/Section';
 import { Slide } from '../../components/Slide';
 import { SlideText } from '../../components/SlideText';
 
+declare const __dirname: string;
+
 export class IntroSection extends React.Component<{}, {}> {
   public render() {
     return (
