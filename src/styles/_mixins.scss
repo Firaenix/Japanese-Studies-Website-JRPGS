@@ -10,24 +10,14 @@
     // WOOOOOOW position: fixed works in IE9 but not IE10+
     // So we need this hack:
 		margin-bottom: -100vH;
-
-		visibility: visible;
-	}
-
-	.fp-section {
-		&:not(.active) {
-			.section__background {
-				visibility: hidden;
-			}
-		}
 	}
 }
 
 @mixin early_rpg_text_box() {
 	background-color: black;
 	color: white;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 6vH;
+  margin-right: 6vH;
   border-style: solid;
   border-radius: 10px;
   padding: 20px 20px 20px 20px;

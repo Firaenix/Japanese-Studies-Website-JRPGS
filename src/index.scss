@@ -19,17 +19,26 @@
   }
 }
 
+.markdown-text {
+  text-align: left;
+
+  max-height: 70vH;
+  overflow-y: auto;
+}
+
+
 .early-text {
   @include early_rpg_text_box();
   font-family: 'Press Start 2P', cursive;
 
   &.fit {
-    padding-left: 100px;
-    padding-right: 100px;
-
     display: inline-table;
+    // margin-left: 6vH;
+    // margin-right: 6vH;
   }
 }
+
+//////////////////////SECTION CSS////////////////////////////
 
 .eighties-section {
   letter-spacing: 1.5px;
@@ -61,9 +70,7 @@
   }
 }
 
-.markdown-text {
-  text-align: left;
-}
+
 
 .nineties-section {
   @include background("./images/90s-chrono-background.gif", section);
