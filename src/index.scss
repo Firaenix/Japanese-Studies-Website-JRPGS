@@ -34,12 +34,21 @@
 }
 
 .eighties-section {
-  font-family: sans-serif;
-  @include background("./images/80s-dragon-quest.gif");
+  letter-spacing: 1.5px;
 
+  @include background("./images/80s-dragon-quest.gif");
   .slide-title {
     font-size: 31px;
   }
+
+  h1, h2, h3, h4 {
+    font-weight: normal;
+    letter-spacing: 1.5px;
+  }
+}
+
+.markdown-text {
+  text-align: left;
 }
 
 .nineties-section {

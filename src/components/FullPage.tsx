@@ -20,7 +20,7 @@ export class FullPage extends React.Component<Props, {}> {
 
   private getSettings() {
     return {
-      scrollingSpeed: 550,
+      scrollingSpeed: 350,
       continuousVertical: true,
       continuousHorizontal: true,
       dragAndMove: true,
