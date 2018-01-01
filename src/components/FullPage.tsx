@@ -1,4 +1,5 @@
 import 'fullpage.js';
+import 'fullpage.js/dist/jquery.fullpage.extensions.min.js';
 
 import * as classNames from 'classnames';
 import * as $ from 'jquery';
@@ -20,15 +21,13 @@ export class FullPage extends React.Component<Props, {}> {
 
   private getSettings() {
     return {
+      scrollBar: true,
       scrollingSpeed: 350,
-      continuousVertical: true,
-      continuousHorizontal: true,
       dragAndMove: true,
       navigation: true,
       controlArrows: true,
-      navigationPosition: 'bottom',
       slidesNavigation: true,
-      slidesNavPosition: 'bottom',
+      showActiveTooltip: true,
       anchors: ['intro', '80s', '90s', '00s', '10s', 'summary']
     };
   }

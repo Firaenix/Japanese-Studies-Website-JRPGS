@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import * as React from 'react';
 
+import { DemoMode } from '../../components/DemoMode';
 import { Section } from '../../components/Section';
 import { Slide } from '../../components/Slide';
 import { SlideText } from '../../components/SlideText';
@@ -11,7 +12,16 @@ export class EightiesSection extends React.Component<{}, {}> {
   public render() {
     return (
       <Section className="eighties-section">
-        <Slide title={<div className="early-text">JRPGs In the 1980s</div>} />
+        <Slide title={<div className="early-text">JRPGs In the 1980s</div>}>
+          <SlideText
+            className="early-text"
+            text={fs.readFileSync(`${__dirname}/title.md`, 'utf8')}
+          />
+
+          <button className="early-text" onClick={async () => DemoMode.scrollThroughSection()}>
+            Scroll Through!
+          </button>
+        </Slide>
 
         <Slide id="S1S1" title={<div className="early-text fit">Dragon Warrior</div>}>
           <SlideText
