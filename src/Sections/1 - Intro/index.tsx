@@ -12,14 +12,14 @@ export class IntroSection extends React.Component<{}, {}> {
   public render() {
     return (
       <Section id="intro-section" className="intro-section">
-        <Slide title="Japanese Role Playing Games and their impact on Japanese Culture">
+        <Slide title="Welcome to the online JRPG History Museum!">
           <SlideText
             className="intro-text"
             text={fs.readFileSync(`${__dirname}/slide1.md`, 'utf8')}
           />
           <button
             id="demo-btn"
-            className="early-text"
+            className="demo-btn"
             onClick={async () => await DemoMode.scrollDown(100)}
           >
             Start Demo Mode!

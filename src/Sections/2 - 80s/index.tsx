@@ -30,7 +30,7 @@ export class EightiesSection extends React.Component<{}, {}> {
           />
         </Slide>
 
-        <Slide id="S1S2" title={<div className="early-text fit">Final Fantasy</div>}>
+        <Slide id="S1S2" title={<div className="early-text fit">Final Fantasy</div>} hasBackground>
           <SlideText
             className="early-text"
             text={fs.readFileSync(`${__dirname}/slide2.md`, 'utf8')}
