@@ -21,7 +21,6 @@ export class FullPage extends React.Component<Props, {}> {
 
   private getSettings() {
     return {
-      scrollBar: true,
       scrollingSpeed: 350,
       dragAndMove: true,
       navigation: true,

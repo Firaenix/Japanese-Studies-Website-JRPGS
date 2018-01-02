@@ -6,6 +6,7 @@
   "scripts": {
     "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html --public-url /Japanese-Studies-Website-JRPGS/ --out-dir docs",
+    "clean-docs": "rimraf",
     "pre-commit": "lint-staged",
     "git-add": "git add ."
   },
@@ -26,7 +27,7 @@
     "es6-shim": "^0.35.3",
     "fullpage.js": "^2.9.5",
     "jquery": "^3.2.1",
-    "node-sass": "^4.7.2",
+    "less": "^2.7.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-markdown": "^3.1.3"
@@ -36,7 +37,7 @@
     "@types/es6-promise": "^0.0.33",
     "@types/jquery": "^3.2.17",
     "lint-staged": "^6.0.0",
-    "parcel-bundler": "^1.3.1",
+    "parcel-bundler": "^1.4.1",
     "parcel-plugin-typescript": "^0.2.0-angular.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.9.2",

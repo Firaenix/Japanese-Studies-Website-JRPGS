@@ -1,0 +1,35 @@
+@import './styles/mixins';
+@import './styles/fonts';
+@import './styles/overrides';
+
+@import './Sections/1 - Intro/intro';
+@import './Sections/2 - 80s/80s';
+@import './Sections/3 - 90s/90s';
+@import './Sections/4 - 00s/00s';
+@import './Sections/5 - 10s/10s';
+@import './Sections/6 - Summary/summary';
+
+.slide {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.slide-title {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+
+  margin-bottom: 30px;
+}
+
+.title-slide {
+  .fp-tableCell {
+    vertical-align: top;
+  }
+}
+
+.markdown-text {
+  text-align: left;
+
+  max-height: 70vH;
+  overflow-y: auto;
+}
