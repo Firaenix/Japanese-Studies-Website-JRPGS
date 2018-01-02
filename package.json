@@ -6,13 +6,14 @@
   "scripts": {
     "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html --public-url /Japanese-Studies-Website-JRPGS/ --out-dir docs",
-    "clean-docs": "rimraf",
+    "clean-docs": "rimraf ./docs",
+    "dist": "npm run clean-docs && npm run build",
     "pre-commit": "lint-staged",
     "git-add": "git add ."
   },
   "pre-commit": [
     "pre-commit",
-    "build",
+    "dist",
     "git-add"
   ],
   "lint-staged": {
@@ -42,6 +43,7 @@
     "pre-commit": "^1.2.2",
     "prettier": "^1.9.2",
     "react-test-renderer": "^16.2.0",
+    "rimraf": "^2.6.2",
     "tslint": "^5.8.0",
     "tslint-config-airbnb": "^5.4.2",
     "tslint-config-prettier": "^1.6.0",
