@@ -1,1 +1,1 @@
-### Hello
+The 1980s were the beginning of video game companies like Nintendo and Sega to join a video game market dominated by companies such as Atari.

@@ -12,13 +12,16 @@ export class EightiesSection extends React.Component<{}, {}> {
   public render() {
     return (
       <Section className="eighties-section">
-        <Slide title={<div className="early-text">JRPGs In the 1980s</div>}>
+        <Slide id="intro" title={<div className="early-text">JRPGs In the 1980s</div>}>
           <SlideText
             className="early-text"
             text={fs.readFileSync(`${__dirname}/title.md`, 'utf8')}
           />
 
-          <button className="early-text" onClick={async () => DemoMode.scrollThroughSection()}>
+          <button
+            className="scroll-btn early-text"
+            onClick={async () => DemoMode.scrollThroughSection()}
+          >
             Scroll Through!
           </button>
         </Slide>

@@ -1,3 +1,5 @@
+import './index.less';
+import './styles/fonts/chronotype/webfont.css';
 import './typings/modules';
 import 'es6-shim';
 
