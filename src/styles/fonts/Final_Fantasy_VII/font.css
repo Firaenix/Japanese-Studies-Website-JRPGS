@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Final_Fantasy_VII';
+
+  src: url('Final_Fantasy_VII.eot');
+  src: url('Final_Fantasy_VII.woff2') format('woff2'),
+    url('Final_Fantasy_VII.eot?#iefix') format('embedded-opentype');
+  src: url('FinalFantasyVII.woff') format('woff'), url('FinalFantasyVII.ttf') format('truetype'),
+    url('FinalFantasyVII.svg#FinalFantasyVII') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ffvii-font {
+  font-family: 'Final_Fantasy_VII';
+}
