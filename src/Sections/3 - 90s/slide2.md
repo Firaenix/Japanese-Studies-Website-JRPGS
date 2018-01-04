@@ -1,0 +1,3 @@
+- _In 1995, Square's Chrono Trigger raised the standards for the genre, with certain aspects that were considered revolutionary in its time, including its nonlinear gameplay, branching plot,[230] the "Active Time Event Logic" system,[231] more than a dozen different endings,[232] plot-related sidequests, a unique battle system with innovations such as combo attacks, and lack of random encounters._
+
+- _{SALES FIGURES}_

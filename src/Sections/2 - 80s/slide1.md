@@ -4,3 +4,4 @@
 
 ## Dragon Warrior was one of the first major powerhouses in Japanese video gaming, selling over 2 million copies on the Nintendo Famicom alone.
 
+- _In 1985, Yuji Horii and his team at Chunsoft began production on Dragon Quest (Dragon Warrior).[110] After Enix published the game in early 1986, it became the template for future console RPGs._
