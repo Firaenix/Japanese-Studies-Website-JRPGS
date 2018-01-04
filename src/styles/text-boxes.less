@@ -1,4 +1,5 @@
-@import './mixins.less';
+@import './mixins';
+@import './variables';
 
 .early-text {
   .early_rpg_text_box;
@@ -15,24 +16,61 @@
   color: white;
   text-shadow: 1px 1px 1px black;
 
-  background: url("../images/ct-text-box.png") center center;
+  // background: url('../images/ct-text-box-wide.png') center center;
+  // background-repeat: no-repeat;
+  // background-size: 100% 100%;
+
+  padding: 20px 20px 20px 20px;
+
+  margin-left: 6vh;
+  margin-right: 6vh;
+
+  background: url('../images/ct-text-box-super-wide.png') center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 
-  padding: 20px 20px 20px 20px;
-  margin-left: 6vH;
-  margin-right: 6vH;
+  @media (max-width: (@screen-lg-desktop + 600)) {
+    background: url('../images/ct-text-box-wide.png') center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    padding: 20px 30px 20px 20px;
+  }
+
+  @media (max-width: @screen-md-max) {
+    background: url('../images/ct-text-box-mobile.png') center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    padding: 20px 30px 20px 20px;
+  }
+
+  @media (max-width: @screen-sm-max) {
+    background: url('../images/ct-text-box-thin.png') center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    padding: 20px 30px 20px 20px;
+  }
+
+  @media (max-width: @screen-xs-max) {
+    background: url('../images/ct-text-box-thinner.png') center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    padding: 20px 30px 20px 20px;
+  }
 }
 
 .ffvii-text {
   background-color: #17308a;
   color: white;
-  margin-left: 6vH;
-  margin-right: 6vH;
+  margin-left: 6vh;
+  margin-right: 6vh;
   border-style: solid;
   border-radius: 10px;
   padding: 20px 20px 20px 20px;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: Final_Fantasy_VII;
   font-size: 23px;
   text-shadow: 1px 1px 1px black;
 }
