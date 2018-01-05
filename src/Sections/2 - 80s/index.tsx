@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import * as React from 'react';
 
+import { DownArrow, UpArrow } from '../../components/Arrows';
 import { DemoMode } from '../../components/DemoMode';
 import { Section } from '../../components/Section';
 import { Slide } from '../../components/Slide';
@@ -12,7 +13,10 @@ export class EightiesSection extends React.Component<{}, {}> {
   public render() {
     return (
       <Section className="eighties-section">
-        <Slide id="intro" title={<div className="early-text">JRPGs In the 1980s</div>}>
+        <UpArrow />
+        <DownArrow />
+
+        <Slide className="intro" title={<div className="early-text">JRPGs In the 1980s</div>}>
           <SlideText
             className="early-text"
             text={fs.readFileSync(`${__dirname}/title.md`, 'utf8')}

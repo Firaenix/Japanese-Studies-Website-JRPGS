@@ -25,8 +25,6 @@ export class FullPage extends React.Component<Props, {}> {
       dragAndMove: true,
       navigation: true,
       css3: true,
-      scrollOverflow:true,
-      normalScrollElements: '.markdown-text',
       controlArrows: true,
       slidesNavigation: true,
       showActiveTooltip: true,

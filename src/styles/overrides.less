@@ -5,11 +5,32 @@
 }
 
 // NAV Indicators
-#fp-nav ul li a span, .fp-slidesNav ul li a span {
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
   box-shadow: 1px 1px 8px black;
   background: white !important;
 }
 
 button {
   cursor: pointer;
+}
+
+.fp-controlArrow {
+  &.fp-up {
+    left: 50%;
+    top: 3%;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent rgb(255, 255, 255) transparent transparent;
+    transform: rotateZ(90deg);
+  }
+
+  &.fp-down {
+    left: 50%;
+    top: 97%;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #fff transparent transparent;
+    transform: rotateZ(270deg);
+  }
 }
