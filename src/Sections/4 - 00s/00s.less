@@ -1,3 +1,6 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
 .noughties-section {
   .background('00s-final-fantasy-vii.gif');
 
@@ -6,6 +9,10 @@
   }
 
   .slide-title {
+    @media (max-width: @screen-sm-max) {
+      font-size: 60px;
+    }
+
     font-family: Final_Fantasy_VII;
     font-weight: normal;
     font-size: 112px;
@@ -17,5 +24,21 @@
 
   .markdown-text {
     font-size: 40px;
+  }
+}
+
+#S4S3 {
+  .slide-background('00s-pokemon.gif');
+
+  .small-pika {
+    position: absolute;
+    top: 0;
+    right: 26vw;
+
+    @media (max-width: @screen-sm-max) {
+      width: 60px;
+      top: 29px;
+      right: 20vw;
+    }
   }
 }

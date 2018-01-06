@@ -10,6 +10,10 @@
 @import './Sections/5 - 10s/10s';
 @import './Sections/6 - Summary/summary';
 
+body {
+  transition: all 300ms;
+}
+
 .slide {
   text-align: center;
   font-family: sans-serif;
@@ -19,8 +23,8 @@
   color: white;
   text-shadow: 1px 1px 3px black;
 
-  margin-bottom: 25px;
-  margin-top: 50px;
+  margin-bottom: 5px;
+  margin-top: 55px;
 }
 
 .title-slide {
@@ -32,11 +36,11 @@
 .markdown-text {
   text-align: left;
 
-  max-height: 70vh;
+  max-height: 80vh;
   overflow-y: auto;
 
   @media (max-width: @screen-xs-max) {
-    max-height: 60vh;
+    max-height: 65vh;
     overflow-y: scroll;
   }
 }

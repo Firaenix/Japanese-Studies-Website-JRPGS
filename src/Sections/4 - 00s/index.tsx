@@ -4,6 +4,7 @@ import * as React from 'react';
 import { Section } from '../../components/Section';
 import { Slide } from '../../components/Slide';
 import { SlideText } from '../../components/SlideText';
+import * as pikagif from '../../images/00s-pikachu.gif';
 
 declare const __dirname: string;
 
@@ -23,7 +24,8 @@ export class NoughtiesSection extends React.Component<{}, {}> {
             text={fs.readFileSync(`${__dirname}/slide1.md`, 'utf8')}
           />
         </Slide>
-        <Slide title={<div className="slide-title">Pokémon</div>}>
+        <Slide id="S4S3" title={<div className="slide-title">Pokémon</div>} hasBackground>
+          <img className="small-pika" src={pikagif} />
           <SlideText
             className="ffvii-text"
             text={fs.readFileSync(`${__dirname}/slide2.md`, 'utf8')}

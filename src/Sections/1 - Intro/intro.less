@@ -8,12 +8,20 @@
 }
 
 .intro-section {
+  .slide-title {
+    @media (max-width: @screen-sm-max) {
+      font-size: 1.5em;
+    }
 
-  .background("intro-pokemon-store.jpg");
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .background('intro-pokemon-store.jpg');
 
   .intro-text {
-    margin-left: 6vH;
-    margin-right: 6vH;
+    margin-left: 6vh;
+    margin-right: 6vh;
 
     color: white;
     text-shadow: 1px 2px 10px black;

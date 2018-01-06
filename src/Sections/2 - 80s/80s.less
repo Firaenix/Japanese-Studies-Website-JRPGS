@@ -6,8 +6,14 @@
   .background('80s-dragon-quest.gif');
 
   .slide-title {
+    @media (max-width: @screen-sm-max) {
+      font-size: 1.3em;
+    }
+
     font-size: 31px;
     font-family: 'Press Start 2P', cursive;
+
+    margin-top: 48px;
   }
 
   h1,
@@ -29,27 +35,7 @@
   }
 
   #S1S2 {
-    .slide__background-screen {
-      background: @gradient;
-      opacity: 1;
-      width: 100vw;
-      height: 100vh;
-      margin-bottom: -100vh;
-    }
-
-    .slide__background {
-      opacity: 1;
-      background-image: url('../../images/80s-final-fantasy.gif');
-      background-repeat: no-repeat;
-
-      width: 100vw;
-      height: 100vh;
-      background-size: cover;
-
-      // WOOOOOOW position: fixed works in IE9 but not IE10+
-      // So we need this hack:
-      margin-bottom: -100vh;
-    }
+    .slide-background('80s-final-fantasy.gif');
   }
 
   #S1S3 {

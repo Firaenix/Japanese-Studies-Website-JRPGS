@@ -31,8 +31,13 @@ button {
   transform: translate3d(0, 0, 0);
 
   &.fp-up {
-    left: 48%;
-    top: 1%;
+    left: 50%;
+
+    @media (max-width: @screen-sm-max) {
+      left: 40vw;
+    }
+
+    top: 2%;
     width: 0;
     border-top: 34px;
     border-top-style: solid;
@@ -52,7 +57,11 @@ button {
   }
 
   &.fp-down {
-    left: 48%;
+    left: 50%;
+
+    @media (max-width: @screen-sm-max) {
+      left: 40vw;
+    }
     top: 99%;
     width: 0;
     border-top: 34px;

@@ -17,7 +17,7 @@ export class NinetiesSection extends React.Component<{}, {}> {
             text={fs.readFileSync(`${__dirname}/title.md`, 'utf8')}
           />
         </Slide>
-        <Slide title={<div className="slide-title">Final Fantasy IV</div>}>
+        <Slide title={<div className="slide-title">Seiken Densetsu 2 (Secret of Mana)</div>}>
           <SlideText
             className="chrono-text"
             text={fs.readFileSync(`${__dirname}/slide1.md`, 'utf8')}
