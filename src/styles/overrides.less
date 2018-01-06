@@ -32,20 +32,21 @@ button {
 
   &.fp-up {
     left: 50%;
+    top: 5%;
 
     @media (max-width: @screen-sm-max) {
       left: 40vw;
+      top: 6%;
     }
 
-    top: 2%;
     width: 0;
-    border-top: 34px;
+    border-top: 0px;
     border-top-style: solid;
     border-top-color: transparent;
 
     border-bottom: 34px;
     border-bottom-style: solid;
-    border-bottom-color: white;
+    border-bottom-color: #ffffffb5;
 
     border-left: 38.5px;
     border-left-style: solid;
@@ -66,7 +67,7 @@ button {
     width: 0;
     border-top: 34px;
     border-top-style: solid;
-    border-top-color: white;
+    border-top-color: #ffffffb5;
 
     border-bottom: 34px;
     border-bottom-style: solid;
@@ -83,5 +84,15 @@ button {
     // border-width: 38.5px 34px 38.5px 0;
     // border-color: transparent #fff transparent transparent;
     // transform: rotateZ(270deg);
+  }
+}
+
+.fp-controlArrow {
+  &.fp-prev {
+    border-right-color: #ffffffb5;
+  }
+
+  &.fp-next {
+    border-left-color: #ffffffb5;
   }
 }

@@ -17,8 +17,18 @@ export class TensSection extends React.Component<{}, {}> {
             text={fs.readFileSync(`${__dirname}/title.md`, 'utf8')}
           />
         </Slide>
-        <Slide title={<div className="slide-title">Persona 5???</div>}>Section 2 Hello2!</Slide>
-        <Slide title={<div className="slide-title">Dark Souls</div>}>Section 2 Hello3!</Slide>
+        <Slide title={<div className="slide-title">Persona 5???</div>}>
+          <SlideText
+            className="early-text"
+            text={fs.readFileSync(`${__dirname}/slide1.md`, 'utf8')}
+          />
+        </Slide>
+        <Slide title={<div className="slide-title">Dark Souls</div>}>
+          <SlideText
+            className="early-text"
+            text={fs.readFileSync(`${__dirname}/slide2.md`, 'utf8')}
+          />
+        </Slide>
       </Section>
     );
   }

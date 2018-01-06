@@ -1,7 +1,6 @@
 import * as fs from 'fs';
 import * as React from 'react';
 
-import { DemoMode } from '../../components/DemoMode';
 import { Section } from '../../components/Section';
 import { Slide } from '../../components/Slide';
 import { SlideText } from '../../components/SlideText';
@@ -17,13 +16,6 @@ export class EightiesSection extends React.Component<{}, {}> {
             className="early-text"
             text={fs.readFileSync(`${__dirname}/title.md`, 'utf8')}
           />
-
-          <button
-            className="scroll-btn early-text"
-            onClick={async () => DemoMode.scrollThroughSection()}
-          >
-            Scroll Through!
-          </button>
         </Slide>
 
         <Slide id="S1S1" title={<div className="early-text fit">Dragon Warrior</div>}>
