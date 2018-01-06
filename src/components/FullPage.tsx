@@ -23,7 +23,6 @@ export class FullPage extends React.Component<Props, {}> {
     return {
       scrollingSpeed: 350,
       dragAndMove: true,
-      navigation: true,
       css3: true,
       controlArrows: true,
       slidesNavigation: true,

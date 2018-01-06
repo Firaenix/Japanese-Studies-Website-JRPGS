@@ -1,7 +1,6 @@
 import * as fs from 'fs';
 import * as React from 'react';
 
-import { DownArrow, UpArrow } from '../../components/Arrows';
 import { DemoMode } from '../../components/DemoMode';
 import { Section } from '../../components/Section';
 import { Slide } from '../../components/Slide';
@@ -12,10 +11,7 @@ declare const __dirname: string;
 export class EightiesSection extends React.Component<{}, {}> {
   public render() {
     return (
-      <Section className="eighties-section">
-        <UpArrow />
-        <DownArrow />
-
+      <Section className="eighties-section" downArrow upArrow>
         <Slide className="intro" title={<div className="early-text">JRPGs In the 1980s</div>}>
           <SlideText
             className="early-text"

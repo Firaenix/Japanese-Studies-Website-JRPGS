@@ -11,26 +11,68 @@
   background: white !important;
 }
 
+.fp-slidesNav {
+  width: 10%;
+  left: initial !important;
+}
+
 button {
   cursor: pointer;
 }
 
-.fp-controlArrow {
+.jrpg-controlArrow {
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  cursor: pointer;
+  height: 0;
+  border-style: solid;
+  margin-top: -38px;
+  transform: translate3d(0, 0, 0);
+
   &.fp-up {
-    left: 50%;
-    top: 3%;
+    left: 48%;
+    top: 1%;
     width: 0;
-    border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent rgb(255, 255, 255) transparent transparent;
-    transform: rotateZ(90deg);
+    border-top: 34px;
+    border-top-style: solid;
+    border-top-color: transparent;
+
+    border-bottom: 34px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+
+    border-left: 38.5px;
+    border-left-style: solid;
+    border-left-color: transparent;
+
+    border-right: 38.5px;
+    border-right-style: solid;
+    border-right-color: transparent;
   }
 
   &.fp-down {
-    left: 50%;
-    top: 97%;
+    left: 48%;
+    top: 99%;
     width: 0;
-    border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
-    transform: rotateZ(270deg);
+    border-top: 34px;
+    border-top-style: solid;
+    border-top-color: white;
+
+    border-bottom: 34px;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+
+    border-left: 38.5px;
+    border-left-style: solid;
+    border-left-color: transparent;
+
+    border-right: 38.5px;
+    border-right-style: solid;
+    border-right-color: transparent;
+
+    // border-width: 38.5px 34px 38.5px 0;
+    // border-color: transparent #fff transparent transparent;
+    // transform: rotateZ(270deg);
   }
 }

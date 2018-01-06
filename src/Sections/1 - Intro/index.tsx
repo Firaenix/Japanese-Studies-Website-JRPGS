@@ -11,7 +11,7 @@ declare const __dirname: string;
 export class IntroSection extends React.Component<{}, {}> {
   public render() {
     return (
-      <Section id="intro-section" className="intro-section">
+      <Section id="intro-section" className="intro-section" downArrow>
         <Slide title="Welcome to the online JRPG History Museum!">
           <SlideText
             className="intro-text"

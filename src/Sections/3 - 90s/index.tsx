@@ -10,7 +10,7 @@ declare const __dirname: string;
 export class NinetiesSection extends React.Component<{}, {}> {
   public render() {
     return (
-      <Section className="nineties-section">
+      <Section className="nineties-section" downArrow upArrow>
         <Slide title={<div className="slide-title">JRPGs In the 1990s</div>}>
           <SlideText
             className="chrono-text"

@@ -4,16 +4,12 @@ import * as React from 'react';
 interface ArrowProps {}
 
 class BasicArrow extends React.Component<ArrowProps, {}> {
-  private fn: any;
+  protected fn: any;
 
   constructor(props: ArrowProps) {
     super(props);
     this.fn = $.fn;
   }
-
-  protected moveTo = () => {
-    throw new Error('Arrow moveTo not implemented');
-  };
 
   public render(): JSX.Element {
     throw new Error('Arrow render not implemented');
@@ -21,13 +17,21 @@ class BasicArrow extends React.Component<ArrowProps, {}> {
 }
 
 export class UpArrow extends BasicArrow {
+  private move = () => {
+    this.fn.fullpage.moveSectionUp();
+  };
+
   public render() {
-    return <div className="fp-controlArrow fp-up" />;
+    return <div className="jrpg-controlArrow fp-up" onClick={this.move} />;
   }
 }
 
 export class DownArrow extends BasicArrow {
+  private move = () => {
+    this.fn.fullpage.moveSectionDown();
+  };
+
   public render() {
-    return <div className="fp-controlArrow fp-down" />;
+    return <div className="jrpg-controlArrow fp-down" onClick={this.move} />;
   }
 }
