@@ -11,8 +11,18 @@ export class SummarySection extends React.Component<{}, {}> {
   public render() {
     return (
       <Section className="summary-section" upArrow>
-        <Slide title={<div className="slide-title">Summary</div>}>Section 2 Hello!</Slide>
-        <Slide>Section 2 Hello2!</Slide>
+        <Slide title={<div className="slide-title">Summary</div>}>
+          <SlideText
+            className="early-text"
+            text={fs.readFileSync(`${__dirname}/slide1.md`, 'utf8')}
+          />
+        </Slide>
+        <Slide>
+          <SlideText
+            className="early-text"
+            text={fs.readFileSync(`${__dirname}/slide2.md`, 'utf8')}
+          />
+        </Slide>
         <Slide title={<div className="slide-title">Bibliography</div>}>
           <SlideText
             className="bibliography chrono-text"

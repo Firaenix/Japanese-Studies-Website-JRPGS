@@ -9,3 +9,5 @@
 5. The Pokemon Company (2016) Pokemon in Figures. Available at: https://web.archive.org/web/20160721223226/www.pokemon.co.jp/corporate/en/data/
 
 6. Ashcraft, B. (2011). Why do Japanese developers keep us waiting?. Available at: https://www.japantimes.co.jp/life/2011/10/05/life/why-do-japanese-developers-keep-us-waiting/
+
+7. Cieslak, M (2010). Is the Japanese gaming industry in crisis. Available at: http://news.bbc.co.uk/2/hi/programmes/click_online/9159905.stm

@@ -22,8 +22,6 @@ export class FullPage extends React.Component<Props, {}> {
   private getSettings() {
     return {
       scrollingSpeed: 350,
-      dragAndMove: true,
-      css3: true,
       controlArrows: true,
       slidesNavigation: true,
       showActiveTooltip: true,
@@ -40,6 +38,9 @@ export class FullPage extends React.Component<Props, {}> {
 
       const fullPageTag: any = $('#fullpage');
       fullPageTag.fullpage(this.getSettings());
+
+      fn.fullpage.setMouseWheelScrolling(false);
+      fn.fullpage.setAllowScrolling(false);
     });
   }
 
