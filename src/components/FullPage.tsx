@@ -22,7 +22,7 @@ export class FullPage extends React.Component<Props, {}> {
   private getSettings() {
     return {
       scrollingSpeed: 350,
-      controlArrows: true,
+      controlArrows: false,
       slidesNavigation: true,
       showActiveTooltip: true,
       anchors: ['intro', '80s', '90s', '00s', '10s', 'summary']

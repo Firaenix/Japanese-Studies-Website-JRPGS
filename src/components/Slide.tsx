@@ -2,12 +2,15 @@ import * as classNames from 'classnames';
 import * as React from 'react';
 import { Fragment } from 'react';
 
+import { LeftArrow } from './Arrows';
+
 interface Props {
   className?: string;
   id?: string;
   children?: any;
   title?: JSX.Element | string;
   hasBackground?: boolean;
+  leftArrow?: boolean;
 }
 
 export class Slide extends React.Component<Props, {}> {
@@ -31,6 +34,7 @@ export class Slide extends React.Component<Props, {}> {
   public render() {
     return (
       <div id={this.props.id} className={this.compileClassNames()}>
+        {this.props.leftArrow && <LeftArrow />}
         {this.renderBackground()}
         {!!this.props.title && <h1 className="slide-title">{this.props.title}</h1>}
         {this.props.children}

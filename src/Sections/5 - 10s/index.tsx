@@ -10,22 +10,22 @@ declare const __dirname: string;
 export class TensSection extends React.Component<{}, {}> {
   public render() {
     return (
-      <Section className="tens-section" downArrow upArrow>
+      <Section className="tens-section" downArrow upArrow leftArrow rightArrow>
         <Slide title={<div className="slide-title">JRPGS in the modern era (2010s)</div>}>
           <SlideText
-            className="early-text"
+            className="modern-text"
             text={fs.readFileSync(`${__dirname}/title.md`, 'utf8')}
           />
         </Slide>
         <Slide title={<div className="slide-title">Xenoblade Chronicles</div>}>
           <SlideText
-            className="early-text"
+            className="modern-text"
             text={fs.readFileSync(`${__dirname}/slide1.md`, 'utf8')}
           />
         </Slide>
         <Slide title={<div className="slide-title">Persona 5</div>}>
           <SlideText
-            className="early-text"
+            className="modern-text"
             text={fs.readFileSync(`${__dirname}/slide2.md`, 'utf8')}
           />
         </Slide>

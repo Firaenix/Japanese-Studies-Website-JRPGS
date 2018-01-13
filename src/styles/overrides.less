@@ -31,7 +31,7 @@ button {
   transform: translate3d(0, 0, 0);
 
   &.fp-up {
-    left: 50%;
+    left: 47vw;
     top: 5%;
 
     @media (max-width: @screen-xs-max) {
@@ -58,7 +58,7 @@ button {
   }
 
   &.fp-down {
-    left: 50%;
+    left: 47vw;
 
     @media (max-width: @screen-xs-max) {
       left: 40vw;
@@ -80,10 +80,51 @@ button {
     border-right: 38.5px;
     border-right-style: solid;
     border-right-color: transparent;
+  }
 
+  &.fp-prev {
+    left: 15px;
+
+    width: 0;
+    border-top: 38.5px;
+    border-top-style: solid;
+    border-top-color: transparent;
+
+    border-bottom: 34px;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+
+    border-left: 0px;
+    border-left-style: solid;
+    border-left-color: transparent;
+
+    border-right: 34px;
+    border-right-style: solid;
+    border-right-color: #ffffffb5;
+    // width: 0;
     // border-width: 38.5px 34px 38.5px 0;
     // border-color: transparent #fff transparent transparent;
-    // transform: rotateZ(270deg);
+  }
+
+  &.fp-next {
+    right: 15px;
+
+    width: 0;
+    border-top: 38.5px;
+    border-top-style: solid;
+    border-top-color: transparent;
+
+    border-bottom: 38.5px;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+
+    border-left: 34px;
+    border-left-style: solid;
+    border-left-color: #ffffffb5;
+
+    border-right: 0px;
+    border-right-style: solid;
+    border-right-color: transparent;
   }
 }
 

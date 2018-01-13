@@ -11,3 +11,9 @@
 6. Ashcraft, B. (2011). Why do Japanese developers keep us waiting?. Available at: https://www.japantimes.co.jp/life/2011/10/05/life/why-do-japanese-developers-keep-us-waiting/
 
 7. Cieslak, M (2010). Is the Japanese gaming industry in crisis. Available at: http://news.bbc.co.uk/2/hi/programmes/click_online/9159905.stm
+
+8. Iwata Asks (2010). Iwata Asks Dragon Quest IX Video 3 How to Enjoy Dragon Quest. Available at: https://www.nintendoworldreport.com/news/23653/iwata-asks-dragon-quest-ix-video-edition
+
+9. Chalk, A (2008). Behold The Dragon Quest Ballet. Available at: http://www.escapistmagazine.com/news/view/87965-Behold-The-Dragon-Quest-Ballet
+
+10. EDGE (2011). Xenoblade Chronicles review. Available at: https://web.archive.org/web/20111228065246/http://www.next-gen.biz:80/reviews/xenoblade-chronicles-review
