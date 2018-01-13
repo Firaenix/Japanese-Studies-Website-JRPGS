@@ -17,15 +17,9 @@ export class SummarySection extends React.Component<{}, {}> {
             text={fs.readFileSync(`${__dirname}/slide1.md`, 'utf8')}
           />
         </Slide>
-        <Slide>
-          <SlideText
-            className="early-text"
-            text={fs.readFileSync(`${__dirname}/slide2.md`, 'utf8')}
-          />
-        </Slide>
         <Slide title={<div className="slide-title">Bibliography</div>}>
           <SlideText
-            className="bibliography chrono-text"
+            className="bibliography ffvii-text"
             text={fs.readFileSync(`${__dirname}/bibliography.md`, 'utf8')}
           />
         </Slide>

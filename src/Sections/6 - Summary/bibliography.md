@@ -17,3 +17,9 @@
 9. Chalk, A (2008). Behold The Dragon Quest Ballet. Available at: http://www.escapistmagazine.com/news/view/87965-Behold-The-Dragon-Quest-Ballet
 
 10. EDGE (2011). Xenoblade Chronicles review. Available at: https://web.archive.org/web/20111228065246/http://www.next-gen.biz:80/reviews/xenoblade-chronicles-review
+
+11. Garcia, E (2017). PERSONA 5 MIGHT BE THE BEST RPG EVER MADE (REVIEW). Available at: https://nerdist.com/persona-5-might-be-the-best-rpg-ever-made-review/
+
+12. Famitsu (2016). ペルソナ 5 Available at: https://www.famitsu.com/cominy/?m=pc&a=page_h_title_review&title_id=30125
+
+13. Leack, J (2017). 2017: The Year Japanese RPGs Caught Up To Western RPGs Available at: http://www.gamerevolution.com/features/13902-2017-the-year-japanese-rpgs-caught-up-to-western-rpgs

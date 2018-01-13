@@ -18,3 +18,5 @@ Persona 5 won the Best Role Playing Game award at The Game Awards 2017.
 https://www.theverge.com/2017/6/30/15894404/japan-video-game-comeback-zelda-resident-evil-e3-2017.
 
 https://www.pcauthority.com.au/feature/yakuza-nioh-and-the-new-japan-renaissance-453105
+
+2017 was considered by many to be the year that "Japanese RPGs Caught up to Western RPGs" (Leak, 2017)

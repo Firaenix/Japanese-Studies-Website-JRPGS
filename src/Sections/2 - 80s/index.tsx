@@ -19,7 +19,7 @@ export class EightiesSection extends React.Component<{}, {}> {
           />
         </Slide>
 
-        <Slide id="S1S1" title={<div className="early-text fit">Dragon Warrior</div>}>
+        <Slide id="S1S1" title={<div className="early-text fit">Dragon Quest</div>}>
           <img className="small-slime" src={slimegif} />
           <SlideText
             className="early-text"
