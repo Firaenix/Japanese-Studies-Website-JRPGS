@@ -48,7 +48,7 @@ export class Section extends React.Component<Props, State> {
       return;
     }
 
-    return <DownArrow />;
+    return <DownArrow animating />;
   }
 
   private renderBackArrow() {
@@ -69,7 +69,12 @@ export class Section extends React.Component<Props, State> {
         {this.props.upArrow && <UpArrow />}
         {this.renderDownArrow()}
         {this.renderBackArrow()}
-        {this.props.rightArrow && <RightArrow onClick={this.onClickRight} />}
+        {this.props.rightArrow && (
+          <RightArrow
+            animating={this.state.sectionSlideCounter < this.props.slidesCount}
+            onClick={this.onClickRight}
+          />
+        )}
       </Fragment>
     );
   }

@@ -1,8 +1,10 @@
+import * as classNames from 'classnames';
 import * as $ from 'jquery';
 import * as React from 'react';
 
 interface ArrowProps {
   onClick?: () => any;
+  animating?: boolean;
 }
 
 class BasicArrow extends React.Component<ArrowProps, {}> {
@@ -36,7 +38,9 @@ class BasicArrow extends React.Component<ArrowProps, {}> {
 
 export class UpArrow extends BasicArrow {
   protected compileClassNames() {
-    return 'jrpg-controlArrow fp-up';
+    return classNames('jrpg-controlArrow', ' fp-up', {
+      'arrow--animating': this.props.animating
+    });
   }
 
   protected move = () => {
@@ -46,7 +50,9 @@ export class UpArrow extends BasicArrow {
 
 export class DownArrow extends BasicArrow {
   protected compileClassNames() {
-    return 'jrpg-controlArrow fp-down';
+    return classNames('jrpg-controlArrow', ' fp-down', {
+      'arrow--animating': this.props.animating
+    });
   }
 
   protected move = () => {
@@ -56,7 +62,9 @@ export class DownArrow extends BasicArrow {
 
 export class LeftArrow extends BasicArrow {
   protected compileClassNames() {
-    return 'jrpg-controlArrow fp-prev';
+    return classNames('jrpg-controlArrow', ' fp-prev', {
+      'arrow--animating': this.props.animating
+    });
   }
 
   protected move = () => {
@@ -66,9 +74,10 @@ export class LeftArrow extends BasicArrow {
 
 export class RightArrow extends BasicArrow {
   protected compileClassNames() {
-    return 'jrpg-controlArrow fp-next';
+    return classNames('jrpg-controlArrow', ' fp-next', {
+      'arrow--animating': this.props.animating
+    });
   }
-
   protected move = () => {
     this.fn.fullpage.moveSlideRight();
   };
