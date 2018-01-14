@@ -1,4 +1,4 @@
-> > > > > > # The Golden Age of Arcade video games
+## The Golden Age of Arcade video games
 
 (https://en.wikipedia.org/wiki/Video_gaming_in_Japan)
 

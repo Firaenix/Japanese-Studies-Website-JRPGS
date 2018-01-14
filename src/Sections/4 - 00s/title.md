@@ -1,4 +1,4 @@
-> > > > > > > > > > > > # The Golden Age of 3D Computer Graphics
+## The Golden Age of 3D Computer Graphics
 
 The next major revolution came in the mid-to-late 1990s, which saw the rise of 3D computer graphics and optical discs in fifth generation consoles.
 

@@ -12,20 +12,64 @@ interface Props {
   downArrow?: boolean;
   leftArrow?: boolean;
   rightArrow?: boolean;
+
+  slidesCount: number;
 }
 
-export class Section extends React.Component<Props, {}> {
+interface State {
+  sectionSlideCounter: number;
+}
+
+export class Section extends React.Component<Props, State> {
+  constructor(props: Props) {
+    super(props);
+
+    this.state = {
+      sectionSlideCounter: 0
+    };
+  }
+
   private compileClassNames() {
     return classNames('section', this.props.className);
+  }
+
+  private onClickRight = () => {
+    this.setState({
+      sectionSlideCounter: this.state.sectionSlideCounter + 1
+    });
+  };
+
+  private renderDownArrow() {
+    if (this.state.sectionSlideCounter < this.props.slidesCount) {
+      return;
+    }
+
+    if (!this.props.downArrow) {
+      return;
+    }
+
+    return <DownArrow />;
+  }
+
+  private renderBackArrow() {
+    if (this.state.sectionSlideCounter < this.props.slidesCount) {
+      return;
+    }
+
+    if (!this.props.leftArrow) {
+      return;
+    }
+
+    return <LeftArrow />;
   }
 
   private renderArrows(): JSX.Element {
     return (
       <Fragment>
         {this.props.upArrow && <UpArrow />}
-        {this.props.downArrow && <DownArrow />}
-        {this.props.leftArrow && <LeftArrow />}
-        {this.props.rightArrow && <RightArrow />}
+        {this.renderDownArrow()}
+        {this.renderBackArrow()}
+        {this.props.rightArrow && <RightArrow onClick={this.onClickRight} />}
       </Fragment>
     );
   }

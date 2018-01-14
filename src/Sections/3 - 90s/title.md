@@ -1,4 +1,4 @@
-> > > > > > > > > > > > # The Golden Age of Console RPGs
+## The Golden Age of Console RPGs
 
 > _The ‘golden age’ of console RPGs is often dated from the 1990s to the early 2000s. Console RPGs distinguished themselves from computer RPGs to a greater degree in the early 1990s. As console RPGs became more heavily story-based than their computer counterparts, one of the major differences that emerged during this time was in the portrayal of the characters. Most American computer RPGs at the time had characters devoid of personality or background as their purpose was to represent avatars which the player could use to interact with the world. This contrasted with Japanese console RPGs, in which pre-defined characters were depicted who had distinctive personalities, traits, and relationships, such as Final Fantasy, with players assuming the roles of people who cared about each other, fell in love or even had families._
 

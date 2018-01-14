@@ -23,3 +23,5 @@
 12. Famitsu (2016). ペルソナ 5 Available at: https://www.famitsu.com/cominy/?m=pc&a=page_h_title_review&title_id=30125
 
 13. Leack, J (2017). 2017: The Year Japanese RPGs Caught Up To Western RPGs Available at: http://www.gamerevolution.com/features/13902-2017-the-year-japanese-rpgs-caught-up-to-western-rpgs
+
+14. Square Enix (2017) SQUARE ENIX KICKS OFF FINAL FANTASY 30TH ANNIVERSARY CELEBRATION. Available at: http://press.na.square-enix.com/releases/905/square-enix-kicks-off-final-fantasy-30th-anniversary-celebration

@@ -125,15 +125,17 @@ button {
     border-right: 0px;
     border-right-style: solid;
     border-right-color: transparent;
+
+    animation-name: blinkborder;
+    animation-duration: 100ms;
   }
 }
 
-.fp-controlArrow {
-  &.fp-prev {
-    border-right-color: #ffffffb5;
-  }
-
-  &.fp-next {
+@keyframes blinkborder {
+  from {
     border-left-color: #ffffffb5;
+  }
+  to {
+    border-left-color: white;
   }
 }

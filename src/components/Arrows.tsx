@@ -1,7 +1,9 @@
 import * as $ from 'jquery';
 import * as React from 'react';
 
-interface ArrowProps {}
+interface ArrowProps {
+  onClick?: () => any;
+}
 
 class BasicArrow extends React.Component<ArrowProps, {}> {
   protected fn: any;
@@ -11,47 +13,63 @@ class BasicArrow extends React.Component<ArrowProps, {}> {
     this.fn = $.fn;
   }
 
+  protected compileClassNames(): string {
+    throw new Error('please implement compile class names');
+  }
+
+  protected move = (): any => {
+    throw new Error('please implement move');
+  };
+
+  protected onClick = () => {
+    if (this.props.onClick) {
+      this.props.onClick();
+    }
+
+    this.move();
+  };
+
   public render(): JSX.Element {
-    throw new Error('Arrow render not implemented');
+    return <div className={this.compileClassNames()} onClick={this.onClick} />;
   }
 }
 
 export class UpArrow extends BasicArrow {
-  private move = () => {
+  protected compileClassNames() {
+    return 'jrpg-controlArrow fp-up';
+  }
+
+  protected move = () => {
     this.fn.fullpage.moveSectionUp();
   };
-
-  public render() {
-    return <div className="jrpg-controlArrow fp-up" onClick={this.move} />;
-  }
 }
 
 export class DownArrow extends BasicArrow {
-  private move = () => {
+  protected compileClassNames() {
+    return 'jrpg-controlArrow fp-down';
+  }
+
+  protected move = () => {
     this.fn.fullpage.moveSectionDown();
   };
-
-  public render() {
-    return <div className="jrpg-controlArrow fp-down" onClick={this.move} />;
-  }
 }
 
 export class LeftArrow extends BasicArrow {
-  private move = () => {
+  protected compileClassNames() {
+    return 'jrpg-controlArrow fp-prev';
+  }
+
+  protected move = () => {
     this.fn.fullpage.moveSlideLeft();
   };
-
-  public render() {
-    return <div className="jrpg-controlArrow fp-prev" onClick={this.move} />;
-  }
 }
 
 export class RightArrow extends BasicArrow {
-  private move = () => {
+  protected compileClassNames() {
+    return 'jrpg-controlArrow fp-next';
+  }
+
+  protected move = () => {
     this.fn.fullpage.moveSlideRight();
   };
-
-  public render() {
-    return <div className="jrpg-controlArrow fp-next" onClick={this.move} />;
-  }
 }

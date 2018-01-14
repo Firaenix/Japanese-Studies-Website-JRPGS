@@ -11,7 +11,7 @@ declare const __dirname: string;
 export class EightiesSection extends React.Component<{}, {}> {
   public render() {
     return (
-      <Section className="eighties-section" downArrow upArrow leftArrow rightArrow>
+      <Section className="eighties-section" downArrow upArrow leftArrow rightArrow slidesCount={3}>
         <Slide className="intro" title={<div className="early-text">JRPGs In the 1980s</div>}>
           <SlideText
             className="early-text"
@@ -31,16 +31,6 @@ export class EightiesSection extends React.Component<{}, {}> {
           <SlideText
             className="early-text"
             text={fs.readFileSync(`${__dirname}/slide2.md`, 'utf8')}
-          />
-        </Slide>
-
-        <Slide
-          id="S1S3"
-          title={<div className="early-text fit">Video Games reach the Mainstream</div>}
-        >
-          <SlideText
-            className="early-text"
-            text={fs.readFileSync(`${__dirname}/slide3.md`, 'utf8')}
           />
         </Slide>
       </Section>
