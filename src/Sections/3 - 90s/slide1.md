@@ -1,4 +1,4 @@
-The second entry in the Mana series, further advanced the action RPG subgenre with its introduction of cooperative multiplayer.
+The second entry in the Mana series, Secret of Mana, known as Seiken Densetsu 2 in Japan was released in 1993 and further advanced the action RPG subgenre with its introduction of cooperative multiplayer.
 
 The game was created by a team previously responsible for the first three Final Fantasy titles: Nasir Gebelli, Koichi Ishii, and Hiromichi Tanaka.
 
