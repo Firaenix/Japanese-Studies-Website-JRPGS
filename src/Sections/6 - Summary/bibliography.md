@@ -20,8 +20,10 @@
 
 11. Garcia, E (2017). PERSONA 5 MIGHT BE THE BEST RPG EVER MADE (REVIEW). Available at: https://nerdist.com/persona-5-might-be-the-best-rpg-ever-made-review/
 
-12. Famitsu (2016). ペルソナ 5 Available at: https://www.famitsu.com/cominy/?m=pc&a=page_h_title_review&title_id=30125
+12. Famitsu (2016). ペルソナ 5. Available at: https://www.famitsu.com/cominy/?m=pc&a=page_h_title_review&title_id=30125
 
 13. Leack, J (2017). 2017: The Year Japanese RPGs Caught Up To Western RPGs Available at: http://www.gamerevolution.com/features/13902-2017-the-year-japanese-rpgs-caught-up-to-western-rpgs
 
 14. Square Enix (2017) SQUARE ENIX KICKS OFF FINAL FANTASY 30TH ANNIVERSARY CELEBRATION. Available at: http://press.na.square-enix.com/releases/905/square-enix-kicks-off-final-fantasy-30th-anniversary-celebration
+
+15. Pepe, F (2016). 1982-1987 - The Birth of Japanese RPGs, re-told in 15 Games. Available at: https://www.gamasutra.com/blogs/FelipePepe/20161010/282896/19821987__The_Birth_of_Japanese_RPGs_retold_in_15_Games.php
