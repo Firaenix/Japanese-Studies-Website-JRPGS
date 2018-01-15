@@ -2,8 +2,8 @@ When Chrono Trigger launched in 1995, it quickly became one of the best consider
 
 Some of the appeals of Chrono Trigger stems from its non linear gameplay, allowing players to explore detailed worlds at their own pace, over a dozen different endings, the branching plot, and introducing no random enemy encounters.
 
-SquareSoft put 5 people in charge of the development of Chrono Trigger:
-* _Akira Toriyama_ ; Manga Artist and creator of the popular Dragonball series and artist behind the Dragon Warrior series.
+SquareSoft assembled what they called the "Dream Team" and put them in charge of development:
+* _Akira Toriyama_ ; Manga Artist and creator of the popular Dragonball series and artist behind the Dragon Quest series.
 * _Nobuo Uematsu_ ; sometimes referred to as the "Beethoven of video games music" (Classic FM, 2013).
 * _Yuuji Horii_ ; Creator of the Dragon Quest series.
 * _Kazuhiko Aoki_ ; Battle designer for the Final Fantasy Series.

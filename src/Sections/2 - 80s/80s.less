@@ -41,10 +41,18 @@
       top: 35px;
       transform: translateX(25vw);
 
-      @media (max-width: @screen-sm-max) {
+      @media (max-width: @screen-md-max) {
+        top: 23px;
+      }
+
+      @media (max-width: @screen-lg) {
+        top: 35px;
+      }
+
+      @media (max-width: @screen-xs-max) {
         width: 60px;
         top: -8px;
-        transform: translateX(20vw);
+        transform: translateX(10vw);
       }
     }
   }

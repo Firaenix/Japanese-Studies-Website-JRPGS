@@ -27,3 +27,7 @@
 14. Square Enix (2017) SQUARE ENIX KICKS OFF FINAL FANTASY 30TH ANNIVERSARY CELEBRATION. Available at: http://press.na.square-enix.com/releases/905/square-enix-kicks-off-final-fantasy-30th-anniversary-celebration
 
 15. Pepe, F (2016). 1982-1987 - The Birth of Japanese RPGs, re-told in 15 Games. Available at: https://www.gamasutra.com/blogs/FelipePepe/20161010/282896/19821987__The_Birth_of_Japanese_RPGs_retold_in_15_Games.php
+
+16. 1up.com (2011). Classic 1up.com's Essential 50 #38 Final Fantasy VII. Available at:  https://archive.is/20120721091308/http://www.1up.com/features/essential-50-final-fantasy-vii
+
+17. VGSales (2017). Final Fantasy Sales Figures. Available at: http://vgsales.wikia.com/wiki/Final_Fantasy 
