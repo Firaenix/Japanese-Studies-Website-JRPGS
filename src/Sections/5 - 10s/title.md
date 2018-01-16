@@ -1,18 +1,11 @@
-## The Golden Age of Criticism
+Japanese video game companies, in the mid to late 2000s were criticized for long development times, slow release cycles and being much to insular to appeal to global markets. Many critics state that the Japanese video game industry have been stuck trying to relive their 'golden era' of the 1990s and innovation in the field has stagnated (Ashcraft, 2011). In 2002, the Japanese video game industry held 50% of the world video game market, however, by 2010, this percentage had shrunk to 2010 (Cieslak, 2010).
 
-In recent years, Japanese companies have been criticized for long development times and slow release dates on home video game consoles, their lack of third-party game engines, and for being too insular to appeal to a global market. Along with this, the Japanese video game industry has been criticised as being stuck in the 1990s, the time period that was considered to be their "golden era". (Ashcraft, 2011)
+In recent years however, critics are finding that Japan is slowly making pace back to the forefront of the video game industry, leading many to wonder if the industry is going through a 'renaissance' period (Lennon, 2017). While criticised as being very similar to previous titles without innovating on the genre, the JRPG genre has recently been considered to be revitalised by games such as Xenoblade Chronicles and the Persona Series. Some critics have considered 2017 to be the year that "Japanese RPGs Caught up to Western RPGs" (Leack, 2017).
 
-* Japanese Market Stagnating
-* JRPGs criticised as being very similar for long time
-* Xenoblade released to praise, revitalised genre
-* Persona 5 brought life back to the Shin Megami Tensei series of games
-
-Since 2016, Japanese RPGs have been experiencing a resurgence, as part of a renaissance for the Japanese video game industry.
+Newer Japanese video games have been seeing wider adoption of Western style video game elements, relying more heavily on immersing the player in the video game rather than masses of text and dialogue to scroll through. Japanese RPGs were once critised as being too 'mechanical' and text heavy, but are embracing more modern standards, while innovating on the new direction the market has taken.
 
 https://en.wikipedia.org/wiki/Video_gaming_in_Japan#2010s
 
 https://www.theverge.com/2017/6/30/15894404/japan-video-game-comeback-zelda-resident-evil-e3-2017.
 
 https://www.pcauthority.com.au/feature/yakuza-nioh-and-the-new-japan-renaissance-453105
-
-2017 was considered by many to be the year that "Japanese RPGs Caught up to Western RPGs" (Leack, 2017)

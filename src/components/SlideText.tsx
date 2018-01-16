@@ -17,7 +17,9 @@ export class SlideText extends React.Component<Props, {}> {
   public render() {
     return (
       <div className={this.compileClassNames()}>
-        <Markdown className="markdown-text" source={this.props.text} escapeHtml={false} />
+        <div>
+          <Markdown className="markdown-text" source={this.props.text} escapeHtml={false} />
+        </div>
       </div>
     );
   }

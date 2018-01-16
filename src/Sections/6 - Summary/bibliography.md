@@ -30,5 +30,8 @@
 
 16. 1up.com (2011). Classic 1up.com's Essential 50 #38 Final Fantasy VII. Available at:  https://archive.is/20120721091308/http://www.1up.com/features/essential-50-final-fantasy-vii
 
-17. VGSales (2017). Final Fantasy Sales Figures. Available at: http://vgsales.wikia.com/wiki/Final_Fantasy 
-18. Boyer, B and Cifaldi, F. (2006) The Gamasutra Quantum Leap Awards: Storytelling. Available at: https://www.gamasutra.com/view/feature/1788/the_gamasutra_quantum_leap_awards_.php?page=5
+17. VGSales (2017). Final Fantasy Sales Figures. Available at: http://vgsales.wikia.com/wiki/Final_Fantasy
+
+18. Boyer, B. and Cifaldi, F. (2006). The Gamasutra Quantum Leap Awards: Storytelling. Available at: https://www.gamasutra.com/view/feature/1788/the_gamasutra_quantum_leap_awards_.php?page=5
+
+19. Lennon, A (2017). Yakuza, Nioh and the New Japan Renaissance. Available at: https://www.pcauthority.com.au/feature/yakuza-nioh-and-the-new-japan-renaissance-453105

@@ -28,6 +28,7 @@
     "classnames": "^2.2.5",
     "es6-shim": "^0.35.3",
     "fullpage.js": "^2.9.5",
+    "iscroll": "^5.2.0",
     "jquery": "^3.2.1",
     "less": "^2.7.3",
     "postcss-modules": "^1.1.0",
@@ -38,6 +39,7 @@
   "devDependencies": {
     "@types/classnames": "^2.2.3",
     "@types/es6-promise": "^0.0.33",
+    "@types/iscroll": "^5.2.1",
     "@types/jquery": "^3.2.17",
     "lint-staged": "^6.0.0",
     "parcel-bundler": "^1.4.1",
@@ -49,7 +51,6 @@
     "tslint-config-airbnb": "^5.4.2",
     "tslint-config-prettier": "^1.6.0",
     "tslint-react": "^3.2.0",
-    "typed-react-markdown": "^0.1.0",
     "typescript": "^2.6.2"
   }
 }
