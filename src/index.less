@@ -42,27 +42,20 @@ a{
 }
 
 .slide-text {
+  -webkit-overflow-scrolling: touch;
   text-align: left;
-
-  max-height: 50vh;
-  overflow: auto;
-
-  margin-top: 20px;
-  margin-bottom: 20px;
   margin-left: 55px;
   margin-right: 55px;
 
-  z-index: 99999;
-
   .markdown-text {
-    padding-bottom: 20px;
-  }
+    max-height: 50vh;
+    overflow: auto;
 
-  @media (max-width: @screen-xs-max) {
-    max-height: 55vh;
-  }
+    @media (max-width: @screen-xs-max) {
+      max-height: 55vh;
+    }
+  }  
 }
-
 
 /* Turn on custom 8px wide scrollbar */
 ::-webkit-scrollbar {

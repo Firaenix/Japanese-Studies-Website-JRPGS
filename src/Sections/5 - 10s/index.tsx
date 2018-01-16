@@ -11,7 +11,7 @@ export class TensSection extends React.Component<{}, {}> {
   public render() {
     return (
       <Section className="tens-section" downArrow upArrow leftArrow rightArrow slidesCount={3}>
-        <Slide title={<div className="slide-title">JRPGS in the modern era (2010s)</div>}>
+        <Slide title={<div className="slide-title">JRPGs in the modern era (2010s)</div>}>
           <SlideText
             className="modern-text"
             text={fs.readFileSync(`${__dirname}/title.md`, 'utf8')}

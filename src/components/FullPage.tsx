@@ -3,7 +3,7 @@ import 'fullpage.js';
 import * as classNames from 'classnames';
 import * as $ from 'jquery';
 import * as React from 'react';
-const IScroll = require('iscroll');
+// const IScroll = require('iscroll');
 
 interface Props {
   className?: string;
@@ -43,10 +43,10 @@ export class FullPage extends React.Component<Props, {}> {
       fn.fullpage.setMouseWheelScrolling(false);
       fn.fullpage.setAllowScrolling(false);
 
-      const markdowns = document.getElementsByClassName('slide-text');
-      for (let index = 0; index < markdowns.length; index++) {
-        const myScroll = new IScroll(markdowns[index], {scrollbars: true});
-      }
+      // const markdowns = document.getElementsByClassName('slide-text');
+      // for (let index = 0; index < markdowns.length; index++) {
+      //   const myScroll = new IScroll(markdowns[index], {scrollbars: true});
+      // }
     });
   }
 
