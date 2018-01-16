@@ -13,7 +13,7 @@ export class SummarySection extends React.Component<{}, {}> {
       <Section className="summary-section" upArrow leftArrow rightArrow slidesCount={0}>
         <Slide title={<div className="slide-title">Summary</div>}>
           <SlideText
-            className="early-text"
+            className="chrono-text"
             text={fs.readFileSync(`${__dirname}/slide1.md`, 'utf8')}
           />
         </Slide>

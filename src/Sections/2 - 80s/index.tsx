@@ -12,7 +12,7 @@ export class EightiesSection extends React.Component<{}, {}> {
   public render() {
     return (
       <Section className="eighties-section" downArrow upArrow leftArrow rightArrow slidesCount={3}>
-        <Slide className="intro" title={<div className="early-text">JRPGs In the 1980s</div>}>
+        <Slide className="intro" title={<div className="early-text fit">JRPGs In the 1980s</div>}>
           <SlideText
             className="early-text"
             text={fs.readFileSync(`${__dirname}/title.md`, 'utf8')}
