@@ -8,4 +8,4 @@
 
 ### This website aims to introduce readers to an overview of the history of Japanese Role Playing Games, the influences that they have taken in cementing the genre and also what the genre has given back to Japanese Culture. We hope you have a great time being taken through history!
 
-### _Press on the down arrow to begin!_
+### _Click on the arrows to follow the tour_
