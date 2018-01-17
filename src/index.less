@@ -14,7 +14,7 @@ body {
   transition: all 300ms;
 }
 
-a{
+a {
   color: rgb(0, 191, 255);
 
   &:visited {
@@ -48,13 +48,13 @@ a{
   margin-right: 55px;
 
   .markdown-text {
-    max-height: 50vh;
+    max-height: 70vh;
     overflow: auto;
 
     @media (max-width: @screen-xs-max) {
       max-height: 55vh;
     }
-  }  
+  }
 }
 
 /* Turn on custom 8px wide scrollbar */
@@ -73,10 +73,10 @@ a{
 ::-webkit-scrollbar-thumb:vertical {
   /* This is the EXACT color of Mac OS scrollbars.
      Yes, I pulled out digital color meter */
-  background: rgba(255, 255, 255,0.5);
+  background: rgba(255, 255, 255, 0.5);
   border-radius: 100px;
 }
 ::-webkit-scrollbar-thumb:vertical:active {
-  background: rgba(255, 255, 255,0.61); /* Some darker color when you click it */
+  background: rgba(255, 255, 255, 0.61); /* Some darker color when you click it */
   border-radius: 100px;
 }
