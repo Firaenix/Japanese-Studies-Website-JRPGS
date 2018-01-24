@@ -5,22 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html --public-url /Japanese-Studies-Website-JRPGS/ --out-dir docs",
+    "build":
+      "parcel build ./src/index.html --public-url /Japanese-Studies-Website-JRPGS/ --out-dir docs --no-minify",
     "clean-docs": "rimraf ./docs",
     "clean-cache": "rimraf ./.cache",
     "dist": "npm run clean-docs && npm run clean-cache && npm run build",
     "pre-commit": "lint-staged",
     "git-add": "git add ."
   },
-  "pre-commit": [
-    "pre-commit",
-    "dist",
-    "git-add"
-  ],
+  "pre-commit": ["pre-commit", "dist", "git-add"],
   "lint-staged": {
-    "*.(j|t)sx?": [
-      "prettier --write"
-    ]
+    "*.(j|t)sx?": ["prettier --write"]
   },
   "dependencies": {
     "@types/react": "^16.0.29",
