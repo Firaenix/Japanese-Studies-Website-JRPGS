@@ -5,29 +5,36 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "build":
-      "parcel build ./src/index.html --public-url /Japanese-Studies-Website-JRPGS/ --out-dir docs",
+    "build": "parcel build ./src/index.html --public-url /Japanese-Studies-Website-JRPGS/ --out-dir docs",
     "clean-docs": "rimraf ./docs",
     "clean-cache": "rimraf ./.cache",
     "dist": "npm run clean-docs && npm run clean-cache && npm run build",
     "pre-commit": "lint-staged",
     "git-add": "git add ."
   },
-  "pre-commit": ["pre-commit", "dist", "git-add"],
+  "pre-commit": [
+    "pre-commit",
+    "dist",
+    "git-add"
+  ],
   "lint-staged": {
-    "*.(j|t)sx?": ["prettier --write"]
+    "*.(j|t)sx?": [
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "@types/react": "^16.0.29",
     "@types/react-dom": "^16.0.3",
     "autoprefixer": "^7.2.5",
     "classnames": "^2.2.5",
-    "es6-shim": "^0.35.3",
+    "core-js": "^2.5.3",
     "fullpage.js": "^2.9.5",
     "iscroll": "^5.2.0",
     "jquery": "^3.2.1",
     "less": "^2.7.3",
     "postcss-modules": "^1.1.0",
+    "promise-polyfill": "^7.0.0",
+    "raf": "^3.4.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-markdown": "^3.1.3"

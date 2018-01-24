@@ -12,67 +12,26 @@ interface Props {
   downArrow?: boolean;
   leftArrow?: boolean;
   rightArrow?: boolean;
+  isRightAnimating?: boolean;
 
-  slidesCount: number;
+  onArrowClicked?: (...args: Array<any>) => any;
 }
 
-interface State {
-  sectionSlideCounter: number;
-}
-
-export class Section extends React.Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-
-    this.state = {
-      sectionSlideCounter: 0
-    };
-  }
-
+export class Section extends React.Component<Props, {}> {
   private compileClassNames() {
     return classNames('section', this.props.className);
-  }
-
-  private onClickRight = () => {
-    this.setState({
-      sectionSlideCounter: this.state.sectionSlideCounter + 1
-    });
-  };
-
-  private renderDownArrow() {
-    if (this.state.sectionSlideCounter < this.props.slidesCount) {
-      return;
-    }
-
-    if (!this.props.downArrow) {
-      return;
-    }
-
-    return <DownArrow animating />;
-  }
-
-  private renderBackArrow() {
-    if (this.state.sectionSlideCounter < this.props.slidesCount) {
-      return;
-    }
-
-    if (!this.props.leftArrow) {
-      return;
-    }
-
-    return <LeftArrow />;
   }
 
   private renderArrows(): JSX.Element {
     return (
       <Fragment>
-        {this.props.upArrow && <UpArrow />}
-        {this.renderDownArrow()}
-        {this.renderBackArrow()}
+        {this.props.upArrow && <UpArrow onClick={this.props.onArrowClicked} />}
+        {this.props.downArrow && <DownArrow animating onClick={this.props.onArrowClicked} />}
+        {this.props.leftArrow && <LeftArrow onClick={this.props.onArrowClicked} />}
         {this.props.rightArrow && (
           <RightArrow
-            animating={this.state.sectionSlideCounter < this.props.slidesCount}
-            onClick={this.onClickRight}
+            animating={this.props.isRightAnimating}
+            onClick={this.props.onArrowClicked}
           />
         )}
       </Fragment>

@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import * as React from 'react';
 
+import { ContentSection } from '../../components/ContentSection';
 import { Section } from '../../components/Section';
 import { Slide } from '../../components/Slide';
 import { SlideText } from '../../components/SlideText';
@@ -8,16 +9,17 @@ import * as pikagif from '../../images/00s-pikachu.gif';
 
 declare const __dirname: string;
 
-export class NoughtiesSection extends React.Component<{}, {}> {
+export class NoughtiesSection extends ContentSection {
   public render() {
     return (
       <Section
         className="noughties-section"
-        downArrow
         upArrow
-        leftArrow
         rightArrow
-        slidesCount={3}
+        isRightAnimating={!this.state.rememberSeen}
+        leftArrow={this.state.rememberSeen}
+        downArrow={this.state.rememberSeen}
+        onArrowClicked={this.onArrowClick}
       >
         <Slide title={<div className="slide-title">JRPGs in the late 1990s to 2000s</div>}>
           <SlideText

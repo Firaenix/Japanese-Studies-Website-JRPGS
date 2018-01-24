@@ -1,7 +1,9 @@
 import './index.less';
 import './styles/fonts/chronotype/webfont.css';
 import './typings/modules';
-import 'es6-shim';
+import 'core-js';
+import 'promise-polyfill';
+import 'raf/polyfill';
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
