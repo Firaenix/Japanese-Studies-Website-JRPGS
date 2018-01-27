@@ -30,7 +30,7 @@ export class ContentSection extends React.Component<Props, State> {
           this.setRememberSeen();
         }
       }
-    }, 1000);
+    }, 10);
   };
 
   protected setRememberSeen = () => {
