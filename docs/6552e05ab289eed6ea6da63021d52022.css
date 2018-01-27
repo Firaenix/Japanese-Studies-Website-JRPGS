@@ -49,7 +49,12 @@
 }
 .fp-slidesNav {
   width: 115px;
-  left: initial !important;
+  left: 90% !important;
+}
+@media (max-width: 480px) {
+  .fp-slidesNav {
+    left: 80% !important;
+  }
 }
 button {
   cursor: pointer;

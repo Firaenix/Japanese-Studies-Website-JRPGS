@@ -24,10 +24,10 @@ export class Slide extends React.Component<Props, {}> {
     }
 
     return (
-      <Fragment>
+      <div>
         <div className="slide__background" />
         <div className="slide__background-screen" />
-      </Fragment>
+      </div>
     );
   }
 

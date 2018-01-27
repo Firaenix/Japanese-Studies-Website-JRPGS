@@ -24,8 +24,9 @@ export class App extends React.Component<{}, State> {
   }
 
   private urlChanged = (e: HashChangeEvent) => {
+    console.log(e || window.location.href);
     this.setState({
-      currentUrl: e.newURL
+      currentUrl: e.newURL || window.location.href
     });
   };
 

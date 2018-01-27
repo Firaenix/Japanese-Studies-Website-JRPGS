@@ -24,7 +24,7 @@ export class Section extends React.Component<Props, {}> {
 
   private renderArrows(): JSX.Element {
     return (
-      <Fragment>
+      <div>
         {this.props.upArrow && <UpArrow onClick={this.props.onArrowClicked} />}
         {this.props.downArrow && <DownArrow animating onClick={this.props.onArrowClicked} />}
         {this.props.leftArrow && <LeftArrow onClick={this.props.onArrowClicked} />}
@@ -34,7 +34,7 @@ export class Section extends React.Component<Props, {}> {
             onClick={this.props.onArrowClicked}
           />
         )}
-      </Fragment>
+      </div>
     );
   }
 

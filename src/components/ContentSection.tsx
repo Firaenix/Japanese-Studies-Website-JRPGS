@@ -23,14 +23,22 @@ export class ContentSection extends React.Component<Props, State> {
   };
 
   protected onArrowClick = () => {
-    setTimeout(() => {
-      const { currentUrl, desiredUrl } = this.props;
-      if (this.isDesiredUrl(currentUrl, desiredUrl)) {
-        if (!this.state.rememberSeen) {
-          this.setRememberSeen();
+    // Currying this function because in some browsers, this gets lost
+    setTimeout(
+      ((self: this) => () => {
+        const { currentUrl, desiredUrl } = self.props;
+
+        console.log('Current:', currentUrl);
+        console.log('Desired:', desiredUrl);
+
+        if (self.isDesiredUrl(currentUrl, desiredUrl)) {
+          if (!self.state.rememberSeen) {
+            self.setRememberSeen();
+          }
         }
-      }
-    }, 10);
+      })(this),
+      100
+    );
   };
 
   protected setRememberSeen = () => {
